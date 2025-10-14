@@ -1,0 +1,16 @@
+# ambiente virtual
+venv/
+
+# cache do python
+__pycache__/
+*.pyc
+
+# configurações do vscode
+.vscode/
+
+# coisas do banco de dados local e arquivos de instância
+instance/
+*.sqlite3
+
+# arquivos de ambiente
+.env
