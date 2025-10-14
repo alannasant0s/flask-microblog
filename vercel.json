@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "microblog.py",
+      "src": "app/__init__.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "microblog.py"
+      "dest": "app/__init__.py"
     }
   ]
 }
